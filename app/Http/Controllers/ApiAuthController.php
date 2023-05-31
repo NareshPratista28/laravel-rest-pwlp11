@@ -38,7 +38,7 @@ class ApiAuthController extends Controller
         //Hapus
         $request->user()->tokens()->delete();
 
-        //response
+        //response--
         return response()->noContent();
     }
 }
